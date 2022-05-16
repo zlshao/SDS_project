@@ -185,7 +185,7 @@ In the case of **detecting** port scanning:
   - Replicating the simulated real traffic from the two high-performance hosts to the traffic analysis server after configuring the flow tables.
   - The traffic analysis server runs SDS_Project to store the extracted traffic features in the Redis database.  As a high-speed in-memory database, Redis satisfies real-time, highly concurrent requirements and is suitable for high-speed network traffic feature access.
 
-  ![system topology](./images/system.png)
+  ![system topology](/images/system.png)
 
   ​																		Figure 1 System topology
 
